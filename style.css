@@ -1085,6 +1085,58 @@ p {
 }
 
 @media (max-width: 768px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    .section-padding {
+        padding: 60px 0;
+    }
+
+    .section-header {
+        margin-bottom: 2.5rem;
+    }
+
+    .hero-content {
+        padding: 0 1rem;
+    }
+
+    .profil-wrap {
+        padding: 1.5rem;
+        margin-top: -30px;
+    }
+
+    .profil-img {
+        margin-bottom: 1.5rem;
+    }
+
+    .pro-card {
+        padding: 1.5rem;
+    }
+
+    .eco-item {
+        margin-bottom: 3rem;
+    }
+
+    .rule-card {
+        padding: 1.5rem;
+    }
+
+    .cards-grid,
+    .rules-grid {
+        gap: 1.5rem;
+    }
+
+    .pricing-table th,
+    .pricing-table td {
+        padding: 12px 15px;
+        font-size: 0.85rem;
+    }
+
+    .footer {
+        padding: 60px 0 20px;
+    }
+
     .hamburger {
         display: flex;
     }
@@ -1127,6 +1179,6 @@ p {
 
     .footer-grid {
         grid-template-columns: 1fr;
-        gap: 3rem;
+        gap: 2.5rem;
     }
 }
